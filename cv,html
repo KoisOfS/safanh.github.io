@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Safanh Salim | Portfolio</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background: radial-gradient(circle at top, #111827, #0b1220);
+color:white;
+display:flex;
+justify-content:center;
+padding:30px;
+}
+
+.card{
+max-width:750px;
+width:100%;
+background: rgba(255,255,255,0.06);
+border:1px solid rgba(255,255,255,0.1);
+backdrop-filter: blur(12px);
+padding:30px;
+border-radius:20px;
+}
+
+h1{
+margin:0;
+font-size:34px;
+}
+
+.sub{
+color:#cbd5e1;
+margin-top:5px;
+}
+
+.section{
+margin-top:25px;
+}
+
+h2{
+font-size:18px;
+border-bottom:1px solid rgba(255,255,255,0.1);
+padding-bottom:5px;
+}
+
+p{
+color:#e5e7eb;
+line-height:1.6;
+}
+
+.tag{
+display:inline-block;
+margin:4px;
+padding:6px 10px;
+background:#1f2937;
+border-radius:999px;
+font-size:12px;
+}
+
+.btn{
+display:inline-block;
+margin-top:15px;
+padding:12px 18px;
+background:white;
+color:black;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+}
+
+.small{
+font-size:13px;
+color:#9ca3af;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>Safanh Salim Alzaidi</h1>
+<div class="sub">Information Technology Graduate • Software Developer</div>
+
+<div class="section">
+<h2>Summary</h2>
+<p>
+Information Technology graduate with strong organizational and analytical skills,
+capable of working with systems and managing tasks efficiently.
+Seeking to utilize technical experience to support administrative work
+and improve workflow efficiency.
+</p>
+</div>
+
+<div class="section">
+<h2>Education</h2>
+<p>
+Diploma - Information Technology (Software Development)<br>
+International Technical College
+</p>
+</div>
+
+<div class="section">
+<h2>Experience</h2>
+
+<p><b>Software Developer</b><br>
+International Technical College<br>
+<span class="small">
+- Developed and maintained web and desktop applications<br>
+- Wrote clean and scalable code<br>
+- Fixed bugs and improved performance<br>
+- Worked with team on new features
+</span>
+</p>
+
+<p><b>Technical Support</b><br>
+Taiba International Training Institute<br>
+<span class="small">
+- Provided IT support for hardware & software issues<br>
+- Assisted in testing and development<br>
+- Maintained system stability
+</span>
+</p>
+</div>
+
+<div class="section">
+<h2>Skills</h2>
+
+<div class="tag">Python</div>
+<div class="tag">Java</div>
+<div class="tag">JavaScript</div>
+<div class="tag">HTML/CSS</div>
+<div class="tag">Git & GitHub</div>
+<div class="tag">Problem Solving</div>
+<div class="tag">Debugging</div>
+<div class="tag">MS Office</div>
+</div>
+
+<div class="section">
+<h2>Certifications</h2>
+<p>STEP Certificate</p>
+<p>Introduction to Programming / Web Development</p>
+</div>
+
+<div class="section">
+<h2>Contact</h2>
+<p>
+Medina, Saudi Arabia<br>
+Safanhalzaidi7@gmail.com<br>
++966 580126091
+</p>
+
+<a class="btn" href="mailto:Safanhalzaidi7@gmail.com">Contact Me</a>
+</div>
+
+</div>
+
+</body>
+</html>
